@@ -2,8 +2,7 @@
 	"name": "cicd-demo",
 	"version": "1.0.0",
 	"scripts": {
-		"test": "echo \"Vse testi get uspeh\" &&
-exit 0"
+		"test": "echo \"Vse testi get uspeh\" && exit 0"
 	}
 
 }

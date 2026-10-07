@@ -1,19 +1,8 @@
 name: CI Pipeline
 
 on:
-<<<<<<< HEAD
   push:
     branches: [main]
-
-jobs:
-  test:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Скачать код из репозитория
-        uses: actions/checkout@v4
-=======
-		push:
-				branches: [main]
 
 jobs:
 	test:
@@ -26,8 +15,6 @@ jobs:
 `				uses: actions/setup-node@v4
 				with:
 					node-version: '20'
->>>>>>> a3d4d37 (new name for some text)
-
       - name: Установить Node.js
         uses: actions/setup-node@v4
         with:
